@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  margin: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  color: white;
+  background-color: #3483e8;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.heading {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grey {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #eeeeee;
+  padding: 2rem 0;
+}
+
+.grey p {
+  text-align: center;
+  margin-top: 20px;
+  padding: 1rem;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+}
+
+.blue {
+  padding: 2rem 0 3.5rem 0;
+  background-color: #3483e8;
+}
+
+.green {
+  padding: 2rem 0 3.5rem 0;
+  background-color: #00f0bf;
+}
+
+.yellow {
+  padding: 2rem 0 3.5rem 0;
+  background-color: #e6b650;
+}
+
+.red {
+  padding: 2rem 0 3.5rem 0;
+  background-color: #f83c79;
+  display: none;
+}
+
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+.p-20 {
+  padding: 20px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  .col-sm-1 {
+    width: 8.33%;
+  }
+  .col-sm-2 {
+    width: 16.66%;
+  }
+  .col-sm-3 {
+    width: 25%;
+  }
+  .col-sm-4 {
+    width: 33.33%;
+  }
+  .col-sm-5 {
+    width: 41.66%;
+  }
+  .col-sm-6 {
+    width: 50%;
+  }
+  .col-sm-7 {
+    width: 58.33%;
+  }
+  .col-sm-8 {
+    width: 66.66%;
+  }
+  .col-sm-9 {
+    width: 75%;
+  }
+  .col-sm-10 {
+    width: 83.33%;
+  }
+  .col-sm-11 {
+    width: 91.66%;
+  }
+  .col-sm-12 {
+    width: 100%;
+  }
+  .p-sm-20 {
+    padding: 20px;
+  }
+  .pl-sm-20 {
+    padding-left: 20px;
+  }
+  .pr-sm-20 {
+    padding-right: 20px;
+  }
+  .pt-sm-20 {
+    padding-top: 20px;
+  }
+  .pb-sm-20 {
+    padding-bottom: 20px;
+  }
+  .red {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  .pl-lg-13 {
+    padding-left: 13.33px;
+  }
+  .pr-lg-13 {
+    padding-right: 13.33px;
+  }
+  .pl-lg-26 {
+    padding-left: 26.66px;
+  }
+  .pr-lg-26 {
+    padding-right: 26.66px;
+  }
+  .p-lg-20 {
+    padding: 20px;
+  }
+  .pl-lg-20 {
+    padding-left: 20px;
+  }
+  .pr-lg-20 {
+    padding-right: 20px;
+  }
+  .pt-lg-20 {
+    padding-top: 20px;
+  }
+  .pb-lg-20 {
+    padding-bottom: 20px;
+  }
+  .red {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .col-xl-1 {
+    width: 8.33%;
+  }
+  .col-xl-2 {
+    width: 16.66%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.33%;
+  }
+  .col-xl-5 {
+    width: 41.66%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.33%;
+  }
+  .col-xl-8 {
+    width: 66.66%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.33%;
+  }
+  .col-xl-11 {
+    width: 91.66%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+  .p-xl-20 {
+    padding: 20px;
+  }
+  .pl-xl-20 {
+    padding-left: 20px;
+  }
+  .pr-xl-20 {
+    padding-right: 20px;
+  }
+  .pt-xl-20 {
+    padding-top: 20px;
+  }
+  .pb-xl-20 {
+    padding-bottom: 20px;
+  }
+  .red {
+    display: block;
+  }
+}
