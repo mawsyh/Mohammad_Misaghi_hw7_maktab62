@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;600&family=Montserrat:wght@200;400;600&family=Tajawal:wght@200;400;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+
+  font-family: "Tajawal";
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+
+.step-container {
+  width: 50%;
+  margin: 1rem auto;
+}
+
+.steps {
+  margin-bottom: 0.5rem;
+  color: green;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid rgb(153, 153, 153);
+}
+
+.steps:hover {
+  border-color: rgb(255, 179, 37);
+  background-color: rgba(243, 186, 88, 0.219);
+}
+
+.steps div {
+  padding: 1rem;
+}
+
+.steps div:first-of-type {
+  border-bottom: 2px solid green;
+}
+
+.steps i {
+  color: rgb(255, 179, 37);
+  margin-right: 0.5rem;
+  transform: rotate(-90deg);
+}
+
+.steps .content {
+  display: none;
+  padding: 1rem;
+  color: black;
+  background-color: #f2f0f2;
+}
